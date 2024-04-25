@@ -35,7 +35,7 @@
     --primary: rgb(55, 81, 167);
     --primary-hover: rgb(150, 150, 150);
 
-    --secondary: #e78f4a;
+    --secondary: #ee914a;
     --secondary-hover: hsla(211, 50%, 31%, 1);
 
     --tertiary: hsla(211, 83%, 70%, 1);
@@ -46,11 +46,13 @@
 
     --font-color: #1d1d1d;
     
-    --darkblue-0: #3a526e;
-    --yellow-0: #e9d46c;
-    --lukewarm-0: #5966348f;
-    --redish-0: #C44536;
-    --darkred-0: #772E25;
+    --navtext-0: #1e221c;
+    --navcolor-2: #365445;
+    --trimcolor-3: #c5aad7;
+    --footercolor-4: #a1c261;
+    --footertext-5: #3A393C;
+    --btncolor-6: #80b9ab;
+    --btncolorhover-7: #476162;
 
     --gray-0: #222222;
     --gray-1: #666666;
@@ -70,7 +72,7 @@
 footer {
     margin-top: 3rem;
     font-size: calc(1rem / var(--base-scale));
-    background-color: var(--yellow-0);
+    background-color: var(--trimcolor-3);
 }
 
 footer h3,
@@ -103,8 +105,9 @@ footer .form-group label {
     font-size: medium
 }
 
+
 footer .copyright {
-    background-color: var(--primary-hover);
+    background-color: var(--footercolor-4);
     width: 100%;
     padding-bottom: 1rem;
     padding-top: 1rem;
@@ -169,7 +172,7 @@ footer .social-media a {
 }
 
 .navbar-toggler {
-    background-color: var(--primary);
+    background-color: var(--secondary);
     border: 0 none;
     color: white;
     width: 2rem;
@@ -193,7 +196,7 @@ footer .social-media a {
 }
 
 .navbar-nav li > a {
-    color: var(--primary);
+    color: var(--color-3);
     display: block;
     overflow: hidden;
     padding: calc((1em / var(--scale)) / var(--scale)) calc(1em / var(--scale));
@@ -230,7 +233,7 @@ footer .social-media a {
 }
 
 .dropdown-menu {
-    background-color: var(--gray-2);
+    background-color: var(--navcolor-2);
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-start;
@@ -312,6 +315,7 @@ body {
 }
 .mockup{
    text-align: center;
+   color: var(--green-0);
 }
 
 .containcolor {
@@ -939,7 +943,7 @@ anding */
     display: inline-block;
     overflow: hidden;
     padding: calc(var(--line-height) / var(--scale)) var(--line-height);
-    background-color: var(--secondary);
+    background-color: var(--btncolor-6);
     text-decoration: none;
     color: var(--white);
     border: 0 none;
@@ -947,7 +951,7 @@ anding */
 }
 
 .btn:hover{ 
-    background-color: var(--darkblue-0);
+    background-color: var(--btncolorhover-7);
     padding-bottom: 1em;
 }
 
