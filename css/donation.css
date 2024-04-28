@@ -357,12 +357,7 @@ img {
 
 }
 .logos {
-    max-width: 100%;
-    display: flex;
-    flex-flow: row wrap;
-    align-items: flex-start;
-    align-content: flex-start;
-    justify-content: center;
+  text-align: center;
 }
 .gif {
     max-width: 100%;

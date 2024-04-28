@@ -521,7 +521,31 @@ li {border-spacing: 5%;}
     padding-bottom: 1rem;
   
 }
+.aboutus{
+   
+    color: white;
+    border: none;
+   
+    padding: 20px 40px;
+    position: relative;
+    transition:  transform 0.3s;
+}
+.aboutus:hover{
+animation: aboutus 0.4s ease-in-out;
 
+}
+
+@keyframes aboutus {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
 
 @media screen and (min-width: 576px){ .container { max-width: 576px; }} /* sm */
 @media screen and (min-width: 768px){ .container { max-width: 768px; }} 
