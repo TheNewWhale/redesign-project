@@ -117,57 +117,116 @@
                 </div>
             </div>
         </div>
-        <div class="container">
-            
-                <div class="col-xs-12 col-md-12 col-lg-12">
-                                <h2>Sign up</h2>
-                                <form method="post" action="registration.php" name="registration">
-                                <div class="form-group row">
-                                <label for="name" class="col-sm-12 col-lg-12 col-form-label">First Name</label>
-                                    <div class="col-sm-10">
-                                    <input type="text" name="name" id="name" class="form-control" placeholder="Jane Doe">
-                                </div>
-                                </div>
-                            <div class="form-group row">
-                                <label for="email" class="col-sm-12 col-lg-12 col-form-label">Last Name</label>
-                                <div class="col-sm-10">
-                                        <input type="text" name="email" id="email" class="form-control" placeholder="User@email.com">
-                                </div>
-                            </div>
-                            <div class="form-group row">
-                                <label for="subject" class="col-sm-12 col-lg-12 col-form-label">Email</label>
-                                <div class="col-sm-10">
-                                    <input type="text" name="subject" id="subject" class="form-control" placeholder="Reason to connect">
-                                    </div>
-                            </div>
-                            <div class="form-group row">
-                                <label for="message" class="col-sm-12 col-lg-12">Message</label>
-                                    <div class="col-sm-10">
-                                    <input type="text" id="message" class="form-control" placeholder="Add your comments">
-                                    
-                                    </div>
-                                </div>
-                                <input type="submit" name="submit" id="submit" value="Submit" class="btn btn-sm">
-                                </form>
 
-                                <select class="form-control">
-                                    <div class="col-sm-12 col-lg-12">
-                                        <optgroup label="Imported">
-                                            <option value="volvo">Fundraising</option>
-                                            <option value="saab">Resource Development</option>
-                                            <option value="fiat">Food Service</option>
-                                        </optgroup>
-                                    </div>
-                                </select>
+           <div class="containerforform">
+        <div class="rowforform">
+            <div class="col-lg-12">
+                <div class="form">
+                        <div class="formtitle"><h2>Volunteer Form </h2></div>
+                       
+                            <form action="sumbit_volunteer" method="post">
+                                <label for="name">Name:</label>
+                                <input type="text" id="name" name="name" required placeholder="First and Last Name">
+
+                                <label for="name">Email:</label>
+                                <input type="email" id="email" name="email" required placeholder="email@email.com">
+
+                                <label for="name">Phone:</label>
+                                <input type="phone" id="phone" name="phone" required placeholder="Phone Number">
+
+
+
+                            </form>
+                       
                 </div>
-           
+            
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-9 col-lg-12">
+                <div class="eventtypes"><h1>Types of Events</h1></div>
+            </div>
+              
+        </div>
+    </div>
+
+        <div class="containcolor">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-9 col-lg-12">
+                        <div class="eventtypes"><h2>Fundraising</h2></div>
+                        <ul>
+                            <li>Help us organize and execute fundraising events such as auctions, charity walks, or galas.</li>
+                            <li>Event set up and or tear down.</li>
+                            <li>Customer service and/or assist in taking payments.</li>
+                        </ul>
+                        <div class="buttonadjust"><div class="form-check">
+                            <input class="form-check-input" type="radio" name="radio" id="radio" value="option1" checked>
+                            <label class="form-check-label" for="radio">
+                             
+                            </label>
+                        </div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+      
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-9 col-lg-12">
+                        <div class="eventtypes"><h2>Resource Development</h2></div>
+                        <ul>
+                            <li>Help us organize and execute fundraising events such as auctions, charity walks, or galas.</li>
+                            <li>Event set up and or tear down.</li>
+                            <li>Customer service and/or assist in taking payments.</li>
+                        </ul>
+                        <div class="buttonadjust"><div class="form-check">
+                            <input class="form-check-input" type="radio" name="radio" id="radio" value="option1" checked>
+                            <label class="form-check-label" for="radio">
+                                
+                            </label>
+                        </div></div>
+                    </div>
+                </div>
+            </div>
+  
+
+
+        <div class="containcolor">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-9 col-lg-12">
+                        <div class="eventtypes"><h2>Food Service</h2></div>
+                        <ul>
+                            <li>Help us organize and execute fundraising events such as auctions, charity walks, or galas.</li>
+                            <li>Event set up and or tear down.</li>
+                            <li>Customer service and/or assist in taking payments.</li>
+                        </ul>
+                        <div class="buttonadjust"><div class="form-check">
+                            <input class="form-check-input" type="radio" name="radio" id="radio" value="option1" checked>
+                            <label class="form-check-label" for="radio">
+                                
+                            </label>
+                        </div></div>
+                    </div>
+                </div>
+            </div>
         </div>
 
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-9 col-lg-12">
+                        <div class="submitbut">
+                            <a href="" class="btn btn-sm">Submit</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         
-                   
-        
-
-
 
         <footer>
             <div class="container-fluid">
