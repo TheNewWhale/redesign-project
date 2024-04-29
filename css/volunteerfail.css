@@ -30,7 +30,7 @@
     --h3:calc(1rem * var(--scale));
     --h2:calc(var(--h3) * var(--scale));
     --h1:calc(var(--h2) * var(--scale));
-    
+
     
     /* Branding */
     --primary: rgb(55, 81, 167);
@@ -61,6 +61,7 @@
 
     --white: white;
 
+ 
 
     /* Other */
     --table-padding: 1.618rem;
@@ -104,7 +105,6 @@ footer .form-group label {
     margin-bottom: 1%;
     font-size: medium
 }
-
 
 footer .copyright {
     background-color: var(--footercolor-4);
@@ -315,27 +315,11 @@ body {
 }
 .mockup{
    text-align: center;
-   color: var(--green-0);
 }
 
 .containcolor {
-    background-color: var(--lukewarm-0);
+    background-color: var(--navcolor-2);
     width: 100%;
-}
-.morecontact {
-    display: flex;
-    flex-flow: column nowrap;
-    align-content: center;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
-
-/* Images */
-img {
-    max-width: 100%;
-    border-radius: 30px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, .5);
 }
 .background-container {
     position: relative;
@@ -346,35 +330,76 @@ img {
     max-width: 100%;
 }
 
-.aboutus{
-   
-    color: white;
-    border: none;
-   
-    padding: 20px 40px;
-    position: relative;
-    transition:  transform 0.3s;
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(198, 229, 250);
 }
-.aboutus:hover{
-animation: aboutus 0.4s ease-in-out;
 
+.seperation {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
-.programtitle{
+.aboutus {    
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-start;
+    margin-left: -1rem;}
+    .founder{
+        font-size: x-large;
+    }
+    
+    .morecontact {
+        display: flex;
+        flex-flow: column nowrap;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+.formtitle {
     text-align: center;
 }
+.eventtypes{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: -2rem;
+}
+.submitbut{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin: auto;
+   
+}
+.buttonadjust {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin: auto;
+
+}
+.story {margin: -3rem;}
+
+.text-error {
+    color: #d33838;
+}
+
+/* Images */
+img {
+    max-width: 100%;
+    border-radius: 30px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, .5);
+}
 
 
-@keyframes aboutus {
-    0% {
-      transform: scale(1);
-    }
-    50% {
-      transform: scale(1.2);
-    }
-    100% {
-      transform: scale(1);
-    }
-  }
 /* End of Images */
 
 /* Typography */
@@ -387,7 +412,7 @@ h1, h2, h3, h4, h5, h6,
 }
 
 h1, .h1{
-    font-size: -webkit-xxx-large;
+    font-size: var(--h1);
 }
 
 h2, .h2{
@@ -1033,6 +1058,28 @@ anding */
 }
 
 /* Forms */
+.form {
+   
+    padding: 20px;
+    border-radius: 7px;
+   
+}
+label{
+    font-weight: lighter;
+    display: block;
+    margin-bottom: 5px;
+}
+input[type="text"],
+input[type="email"],
+input[type="phone"],
+textarea {
+    width: 100%;
+    padding:8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
 fieldset {
     padding: var(--line-height);
     border: 1px solid var(--primary);
