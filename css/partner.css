@@ -341,16 +341,9 @@ body {
 .seperation {
     padding-top: 1rem;
     padding-bottom: 1rem;
+}.about {
+text-align: center;
 }
-.aboutus {    
-    display: flex;
-    flex-flow: column nowrap;
-    align-items: flex-start;
-    margin-left: -1rem;}
-    .founder{
-        font-size: x-large;
-    }
-    
 /* Images */
 img {
     max-width: 100%;
@@ -453,11 +446,19 @@ dd:last-of-type {
     margin-bottom: 0;
 }
 .description {
-padding-bottom: 5%;
+
 display: flex;
 flex-flow: column nowrap;
 justify-content: center;
 align-items: flex-start;}
+
+.thecontributions{
+    padding-top: 1rem;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: flex-start;
+}
 /* End of Lists */
 
 /* End of Typography */
