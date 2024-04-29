@@ -31,36 +31,34 @@
     --h2:calc(var(--h3) * var(--scale));
     --h1:calc(var(--h2) * var(--scale));
     
-    /* Branding */
-    --primary: rgb(55, 81, 167);
-    --primary-hover: rgb(150, 150, 150);
-
-    --secondary: #ee914a;
-    --secondary-hover: hsla(211, 50%, 31%, 1);
-
-    --tertiary: hsla(211, 83%, 70%, 1);
-    --tertiary-hover: rgb(61, 92, 124);
-    --secondary-blurred: hsla(211, 100%, 31%, 100%);
-
-    --secondary-blurred: hsla(211, 100%, 31%, 100%);
-
-    --font-color: #1d1d1d;
-    
-    --navtext-0: #1e221c;
-    --navcolor-2: #365445;
-    --trimcolor-3: #c5aad7;
-    --footercolor-4: #a1c261;
-    --footertext-5: #3A393C;
-    --btncolor-6: #80b9ab;
-    --btncolorhover-7: #476162;
-
-    --gray-0: #222222;
-    --gray-1: #666666;
-    --gray-2: #999999;
-    --gray-3: #c4c4c4;
-    --gray-4: #efefef;
-
-    --white: white;
+     /* Branding */
+     --primary: rgb(55, 81, 167);
+     --primary-hover: #3A393C;
+ 
+     --secondary: #515f74;
+     --secondary-hover: hsla(211, 50%, 31%, 1);
+ 
+     --tertiary: hsla(211, 83%, 70%, 1);
+     --tertiary-hover: rgb(61, 92, 124);
+     --secondary-blurred: hsla(211, 100%, 31%, 100%);
+ 
+     --font-color: #1d1d1d;
+     
+     --navtext-0: #1e221c;
+     --navcolor-2: #a6ce58;
+     --trimcolor-3: #edeaee;
+     --footercolor-4: #a6ce58;
+     --footertext-5: #3A393C;
+     --btncolor-6:  rgb(55, 81, 167);
+     --btncolorhover-7: #7d7d7d;
+ 
+     --gray-0: #222222;
+     --gray-1: #666666;
+     --gray-2: #999999;
+     --gray-3: #c4c4c4;
+     --gray-4: #efefef;
+ 
+     --white: white;
 
     /* Other */
     --table-padding: 1.618rem;
@@ -322,7 +320,14 @@ body {
     background-color: var(--lukewarm-0);
     width: 100%;
 }
-
+.morecontact {
+    display: flex;
+    flex-flow: column nowrap;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
 
 /* Images */
 img {
