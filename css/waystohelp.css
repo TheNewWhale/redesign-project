@@ -329,8 +329,44 @@ img {
     border-radius: 30px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, .5);
 }
+.background-container {
+    position: relative;
+    text-align: center;
+}
+
+.background-container img {
+    max-width: 100%;
+}
+
+.aboutus{
+   
+    color: white;
+    border: none;
+   
+    padding: 20px 40px;
+    position: relative;
+    transition:  transform 0.3s;
+}
+.aboutus:hover{
+animation: aboutus 0.4s ease-in-out;
+
+}
+.programtitle{
+    text-align: center;
+}
 
 
+@keyframes aboutus {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
 /* End of Images */
 
 /* Typography */
@@ -521,35 +557,7 @@ li {border-spacing: 5%;}
     padding-bottom: 1rem;
   
 }
-.aboutus{
-   
-    color: white;
-    border: none;
-   
-    padding: 20px 40px;
-    position: relative;
-    transition:  transform 0.3s;
-}
-.aboutus:hover{
-animation: aboutus 0.4s ease-in-out;
 
-}
-.programtitle{
-    text-align: center;
-}
-
-
-@keyframes aboutus {
-    0% {
-      transform: scale(1);
-    }
-    50% {
-      transform: scale(1.2);
-    }
-    100% {
-      transform: scale(1);
-    }
-  }
 
 @media screen and (min-width: 576px){ .container { max-width: 576px; }} /* sm */
 @media screen and (min-width: 768px){ .container { max-width: 768px; }} 
