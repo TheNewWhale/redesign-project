@@ -329,6 +329,31 @@ body {
     text-align: center;
 }
 
+.formtitle {
+    text-align: center;
+}
+.eventtypes{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: -2rem;
+}
+.submitbut{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin: auto;
+   
+}
+.buttonadjust {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin: auto;}
 /* Images */
 img {
     max-width: 100%;
@@ -470,6 +495,7 @@ caption {
     text-align: left;
     padding: calc(var(--table-padding) / 2) 0;
 }
+
 /* End of Table Styles */
 
 /* Code tag */
@@ -533,6 +559,9 @@ li {border-spacing: 5%;}
 }
 .spacer {
     margin-top: -1rem;
+}
+.containercontains{
+    margin-top: -2rem;
 }
 
 @media screen and (min-width: 576px){ .container { max-width: 576px; }} /* sm */
@@ -1001,6 +1030,28 @@ anding */
 }
 
 /* Forms */
+.form {
+   
+    padding: 20px;
+    border-radius: 7px;
+   
+}
+label{
+    font-weight: lighter;
+    display: block;
+    margin-bottom: 5px;
+}
+input[type="text"],
+input[type="email"],
+input[type="phone"],
+textarea {
+    width: 100%;
+    padding:8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
 fieldset {
     padding: var(--line-height);
     border: 1px solid var(--primary);
