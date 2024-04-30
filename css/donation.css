@@ -339,11 +339,7 @@ body {
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
-.aboutus {    
-    display: flex;
-    flex-flow: column nowrap;
-    align-items: flex-start;
-    margin-left: -1rem;}
+
     .founder{
         font-size: x-large;
     }
@@ -355,12 +351,43 @@ body {
         justify-content: center;
         text-align: center;
     }
-    
+.paragraph{
+    font-size: larger;
+}
+.aboutus{
+
+    color: white;
+    border: none;
+    position: relative;
+    transition:  transform 0.3s;
+}
+.aboutus:hover{
+animation: aboutus 0.4s ease-in-out;
+
+}
+.programtitle{
+    text-align: center;
+}
+
+
+@keyframes aboutus {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
 /* Images */
 img {
     max-width: 50%;
-
+    border-radius: 30px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, .5);
 }
+
 .logos {
   text-align: center;
 }
