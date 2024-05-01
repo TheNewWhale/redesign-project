@@ -388,6 +388,11 @@ body {
 }
 .story {margin: -3rem;}
 
+.adjust {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
 /* Images */
 img {
     max-width: 100%;

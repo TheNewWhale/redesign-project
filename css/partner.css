@@ -329,11 +329,7 @@ body {
 }
 
 .centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: rgb(198, 229, 250);
+  text-align: center;
 }
 
 .seperation {
@@ -346,9 +342,14 @@ text-align: center;
 img {
     max-width: 100%;
     border-radius: 30px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, .5);
+
 }
 
+.takeoff{
+    border-radius: 30px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, .5);
+   
+}
 
 /* End of Images */
 
